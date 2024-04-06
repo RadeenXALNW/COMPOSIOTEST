@@ -2,7 +2,7 @@ from crewai import Agent, Task
 from composio_crewai import ComposioToolset, App, Action
 from langchain_openai import ChatOpenAI
 from langchain.agents import AgentType
-llm = ChatOpenAI(openai_api_key="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", model="gpt-4-0613")
+llm = ChatOpenAI(openai_api_key="sk-**", model="gpt-4-0613")
 
 composioCrewAI = ComposioToolset([App.GITHUB, App.LINEAR])
 
